@@ -61,7 +61,7 @@ class Form
 
 		$options = '';
 		foreach($attr['options'] as $optionKey => $option) {
-			$options .= '<option value="' . $optionKey . '">' . $option . '</option>';
+			$options .= '<option value="' . $optionKey . '>' . $option . '</option>';
 		}
 		unset($attr['options']);
 
